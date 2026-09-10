@@ -101,18 +101,6 @@ The anomaly component builds person-level network features and uses Isolation Fo
 
 Do not commit real personal information, biometric data, confidential FIR records, credentials, or operational law-enforcement data to this public repository. Use synthetic/demo or properly authorised data for the hackathon demonstration.
 
-## Hackathon Demo Flow
-
-1. Launch the command center.
-2. Review person/FIR records.
-3. Add or select a case/person.
-4. Run NLP entity extraction on an investigation report.
-5. Generate/open the relationship network.
-6. Review graph metrics and cluster intelligence.
-7. Run anomaly analysis and inspect intelligence alerts.
-8. Demonstrate camera-based face recognition with authorised demo faces.
-9. Export a case intelligence report.
-
 ## Responsible Use
 
 The prototype is designed to **assist investigators by organizing and surfacing information for human review**. Analytical scores, graph relationships, and face-recognition matches require verification against source records and should not be treated as autonomous determinations.
