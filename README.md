@@ -22,15 +22,22 @@ AI-Assisted Investigation Intelligence & Relationship Analysis System for organi
 
 | Technology | Purpose |
 
-Technology |	Purpose
 Python |	Core Programming Language
+
 SQLite |	Database
+
 OpenCV |	Image Processing
+
 NLP	Text | Analysis
+
 Scikit-learn |	Machine Learning
+
 NetworkX |	Graph Analysis
+
 Pandas & NumPy |	Data Processing
+
 Joblib |	Model Persistence
+
 ReportLab | Report Generation
 
 ## Project Structure
