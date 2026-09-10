@@ -1,18 +1,18 @@
 # Criminal Intelligence and Investigation Command Center
 
-AI-assisted investigation prototype for organizing case records and supporting investigative analysis through **NLP-based entity extraction, face recognition, relationship/network analysis, anomaly detection, intelligence alerts, and report export**.
+AI-Assisted Investigation Intelligence & Relationship Analysis System for organizing case records and supporting investigative analysis through **NLP-based entity extraction, face recognition, relationship/network analysis, anomaly detection, intelligence alerts, and report export**.
 
 > **Hackathon Prototype:** This repository is intended for demonstration and evaluation. It is not a production law-enforcement system and must not be used to make automated decisions about guilt or criminal responsibility.
 
 ## Key Features
 
 - Criminal/person and FIR record management
-- Entity extraction from investigation/FIR text
+- Entity extraction from FIRs, CDRs, transactions, reports and intelligence records
 - Relationship discovery using shared attributes and case links
-- Network visualization and graph-based analytical metrics
-- Unsupervised anomaly detection using Isolation Forest when scikit-learn is available
-- Priority/intelligence alerts with high-severity indicators
-- Face detection/recognition using InsightFace (`buffalo_l`) embeddings
+- Network visualization and graph-based analytics
+- Unsupervised anomaly detection using scikit-learn
+- Priority/intelligence alerts with high-intense indicators
+- Face detection/recognition using InsightFace embeddings
 - Camera-based face recognition workflow
 - Case intelligence dashboard and analytics
 - PDF/CSV export support
@@ -21,30 +21,26 @@ AI-assisted investigation prototype for organizing case records and supporting i
 ## Technology Stack
 
 | Technology | Purpose |
-|---|---|
-| Python | Core application |
-| Tkinter | Desktop user interface |
-| SQLite | Local case/person database |
-| OpenCV | Camera and image processing |
-| InsightFace / ArcFace | Face embeddings and recognition |
-| NumPy | Numerical processing |
-| Scikit-learn | Isolation Forest anomaly detection |
-| ReportLab | PDF report generation |
+Technology |	Purpose
+Python |	Core Programming Language
+SQLite |	Database
+OpenCV |	Image Processing
+NLP	Text | Analysis
+Scikit-learn |	Machine Learning
+NetworkX |	Graph Analysis
+Pandas & NumPy |	Data Processing
+Joblib |	Model Persistence
+ReportLab | Report Generation
 
 ## Project Structure
 
 ```text
 criminal-intelligence-command-center/
 ├── app/
-│   └── main.py
 ├── database/
-│   └── .gitkeep
 ├── faces/
-│   └── .gitkeep
 ├── criminal_photos/
-│   └── .gitkeep
 ├── docs/
-│   └── TECHNICAL_OVERVIEW.md
 ├── requirements.txt
 ├── .gitignore
 └── README.md
@@ -91,15 +87,11 @@ The application creates its SQLite database and runtime folders when required. F
 
 ## Face Recognition Note
 
-The application uses InsightFace with the `buffalo_l` model. The first model initialization may require model files to be downloaded/configured by the InsightFace runtime. A working camera is required for live recognition.
+The application uses InsightFace model. The first model initialization may require model files to be downloaded/configured by the InsightFace runtime. A working camera is required for live recognition.
 
 ## Machine Learning Note
 
-The anomaly component builds person-level network features and uses Isolation Forest when enough records and scikit-learn are available. The output is an investigative analytical indicator, not a proof of criminal activity.
-
-## Data and Privacy
-
-Do not commit real personal information, biometric data, confidential FIR records, credentials, or operational law-enforcement data to this public repository. Use synthetic/demo or properly authorised data for the hackathon demonstration.
+The anomaly component builds person-level network features and using scikit-learn. The output is an investigative analytical indicator, not a proof of criminal activity.
 
 ## Responsible Use
 
