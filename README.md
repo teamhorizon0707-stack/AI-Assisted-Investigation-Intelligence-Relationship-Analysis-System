@@ -21,6 +21,7 @@ AI-Assisted Investigation Intelligence & Relationship Analysis System for organi
 ## Technology Stack
 
 | Technology | Purpose |
+
 Technology |	Purpose
 Python |	Core Programming Language
 SQLite |	Database
