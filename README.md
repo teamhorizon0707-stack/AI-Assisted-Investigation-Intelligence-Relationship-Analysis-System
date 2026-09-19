@@ -1,4 +1,4 @@
-# Criminal Intelligence and Investigation Command Center
+# AI-Assisted Investigation Intelligence & Relationship Analysis System
 
 AI-Assisted Investigation Intelligence & Relationship Analysis System for organizing case records and supporting investigative analysis through **NLP-based entity extraction, face recognition, relationship/network analysis, anomaly detection, intelligence alerts, and report export**.
 
