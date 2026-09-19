@@ -2,8 +2,6 @@
 
 AI-Assisted Investigation Intelligence & Relationship Analysis System for organizing case records and supporting investigative analysis through **NLP-based entity extraction, face recognition, relationship/network analysis, anomaly detection, intelligence alerts, and report export**.
 
-> **Hackathon Prototype:** This repository is intended for demonstration and evaluation. It is not a production law-enforcement system and must not be used to make automated decisions about guilt or criminal responsibility.
-
 ## Key Features
 
 - Criminal/person and FIR record management
