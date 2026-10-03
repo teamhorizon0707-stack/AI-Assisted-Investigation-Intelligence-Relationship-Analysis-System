@@ -57,7 +57,7 @@ criminal-intelligence-command-center/
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR-GITHUB-REPOSITORY-URL>
+git clone <https://github.com/teamhorizon0707-stack/AI-Assisted-Investigation-Intelligence-Relationship-Analysis-System>
 cd criminal-intelligence-command-center
 ```
 
